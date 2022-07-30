@@ -22,7 +22,7 @@
       color: rgb(0, 69, 42);
       }
       
-    hr {
+    #line1 {
       width: 800px;
       height: 10px;
       background-color: chocolate;
@@ -30,11 +30,41 @@
       border-style: dashed;
     }
 
+    #line2 {
+      width: 1000px;
+      height: 15px;
+      background-color: darkorange;
+      border-color: bisque;
+      border-style: ridge;
+    }
+
     img { 
       width: 400px;
       border-width: 5px;
       border-style:dotted;
       border-color:pink;
+    }
+
+    #dl-link {
+      border-width: 2px;
+      border-bottom-width: 3px;
+      border-style: solid;
+      border-color: coral;
+      padding: 5px;
+      margin: 10px;
+      display: block;
+      border-radius: 8px;
+      font-size: 24px;
+    }
+
+    @media screen and (min-width: 836px) {
+      #bean1 {
+        float: left;
+      }
+    
+      #doge1 {
+        float: right;
+      }
     }
     </style>
   </head>
@@ -44,8 +74,11 @@
     <h2> Today is 30 Jul 11.57🫶</h2>
     <p> Hello people, cya tomorrow </p>
     <p> this supposed to be line 2? </p>
-    <img src="mrbean.jpeg">
-    <hr>
+    <img id="bean1" src="mrbean.jpeg">
+    <img id="doge1" src="dogebottom.jpeg">
+    <hr id="line1">
+    <a id="dl-link" href="https://docs.google.com/spreadsheets/d/12mQOJY_IRo4fqtewzs1-x4fdfA4iNBYM/edit?usp=sharing&ouid=104839860531119065770&rtpof=true&sd=true">Click here to access my DEADLINES AND SCHEDULE</a>
+    <hr id="line2">
 
 
 
