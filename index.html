@@ -8,127 +8,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,800;1,800;1,900&display=swap');
-    
-    body {
-      font-family: 'Montserrat', sans-serif;
-      font-weight: 120;
-      text-align: center;
-      font-style:italic;
-     }
-
-    p {
-      font-weight: 50;
-      }
-    
-    h1,h2,h3 {
-      text-decoration: underline;
-      color: rgb(0, 69, 42);
-      }
-      
-    h5 {
-      text-align: left;
-      color: brown;
-      font-weight:500;
-      font-size: xx-large;
-    }
-
-    #line1 {
-      width: 100%;
-      height: 10px;
-      background-color: chocolate;
-      border-color: rgb(0, 0, 0);
-      border-style: dashed;
-    }
-
-    #line2 {
-      width: 100%;
-      height: 15px;
-      background-color: darkorange;
-      border-color: bisque;
-      border-style: ridge;
-    }
-
-    hr {
-      opacity: 1;
-    }
-
-    img { 
-      width: 400px;
-      border-width: 5px;
-      border-style:dotted;
-      border-color:pink;
-    }
-
-    .hlink {
-      border-width: 2px;
-      border-bottom-width: 3px;
-      border-style: solid;
-      padding: 5px;
-      margin: 10px;
-      border-radius: 8px;
-      font-size: 24px;
-      display: block;
-    }
-    
-    #dl-link {
-      border-color: coral;
-    }
-
-    #ppt-link {
-      border-color: rgb(5, 208, 254);
-    }
-
-    #books-link {
-      border-color: rgb(1, 67, 18);
-    }
-
-    #finance-link {
-      border-color: rgb(3, 126, 34);
-    }
-
-    #icbp-link {
-      border-color: rgb(251, 181, 5);
-    }
-    
-    #spotify-link {
-      border-color: rgb(3, 205, 53);
-    }
-
-    #rickroll-link {
-      border-color: rgb(251, 5, 79);
-      border-radius: 10px;
-      font-size: 34px;
-    }
-
-    #spotify-header {
-      margin-top: 50px;
-    }
-
-    #current-date {
-      color:crimson
-    }
-
-    @media screen and (min-width: 836px) {
-      #bean1 {
-        float: left;
-      }
-    
-      #doge1 {
-        float: right;
-      }
-
-      #meme1 {
-        float: left;
-      }
-    }
-
+      @import url('page.css');
     </style>
   </head>
   <body>
 
     <nav class="navbar navbar-expand-lg bg-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#">Desmoo🦕</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -139,6 +26,9 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#line1">Links</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#spotify-header">Spotify</a>
             </li>
               </ul>
             </li>
@@ -174,7 +64,7 @@
           <h1> Some "Funny" stuff😀 </h1>
           </br>
           <p id="memes"> DONT CLICK DA BUTTON!!😉 </p>
-          <button type="button" onclick='document.getElementById("memes").innerHTML = "wow naughty kiddo🤨"'>Don't Click Me!</button>
+          <button type="button" id="button-style" class="btn btn-danger">Don't Click Me!</button>
           <h5> some memes for y'all: </h5>
           <img id="meme1.jpg" src="meme1.jpg">
           <hr id="line2">
@@ -212,7 +102,7 @@
               </h2>
               <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeW7pVxTKbgRvALn_xVjqnmgdelC2vK8u4bWOKU8h6O-r5JPQ/viewform?embedded=true" width="640" height="1118" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                  <iframe id="google-form" src="https://docs.google.com/forms/d/e/1FAIpQLSeW7pVxTKbgRvALn_xVjqnmgdelC2vK8u4bWOKU8h6O-r5JPQ/viewform?embedded=true">Loading…</iframe>
                 </div>
               </div>
             </div>
@@ -228,9 +118,6 @@
 
     <div id="link"></div> </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
-    <script>
-      const today = new Date();
-      document.querySelector('#current-date').innerHTML = today.toDateString();
-    </script>
+    <script src="page.js"></script>
   </body>
 </html>
