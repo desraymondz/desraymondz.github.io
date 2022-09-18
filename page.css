@@ -1,4 +1,4 @@
-body {
+  body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 120;
     text-align: center;
@@ -123,4 +123,10 @@ body {
 
   #super-gif {
       display: none;
+  }
+
+  #time-table {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
   }
