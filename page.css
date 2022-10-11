@@ -3,6 +3,7 @@
     font-weight: 120;
     text-align: center;
     font-style:italic;
+    background-color: rgb(255, 255, 246);
    }
 
   p {
@@ -44,7 +45,7 @@
   img { 
     width: 400px;
     border-width: 5px;
-    border-style:dotted;
+    border-style:solid;
     border-color:pink;
   }
 
@@ -83,10 +84,22 @@
     border-color: rgb(3, 205, 53);
   }
 
+  #ielts-link {
+    border-color: rgb(0, 132, 255);
+  }
+
   #rickroll-link {
     border-color: rgb(251, 5, 79);
     border-radius: 10px;
     font-size: 34px;
+    background-color: rgb(255, 224, 224);
+  }
+
+  #kantinpu {
+    border-color: rgb(5, 148, 251);
+    border-radius: 10px;
+    font-size: 34px;
+    background-color: rgb(197, 255, 255);
   }
 
   #spotify-header {
@@ -108,11 +121,11 @@
   }
   
   @media screen and (min-width: 836px) {
-    #bean1 {
+    #doge1 {
       float: left;
     }
   
-    #doge1 {
+    #doge2 {
       float: right;
     }
 
@@ -130,3 +143,6 @@
     height: 100vh;
     overflow: hidden;
   }
+
+  #bg-image { 
+    background-image:url("dogebottom.jpeg")  }
