@@ -119,6 +119,17 @@
     width: 100%;
     min-height: 1000px;
   }
+
+  #kir {
+    width: 40%;
+    margin: auto;
+    margin-bottom: 70px;
+
+  }
+
+  #kir_title {
+    margin-top: 4%;
+  }
   
   @media screen and (min-width: 836px) {
     #doge1 {
@@ -132,6 +143,17 @@
     #meme1 {
       float: left;
     }
+  }
+
+  @media (max-width: 767px) {
+    #doge1 #doge2 img {
+      margin: auto;
+    }
+    
+    img { 
+      width: 60%;
+    }
+  
   }
 
   #super-gif {
