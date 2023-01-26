@@ -1,25 +1,32 @@
   body {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 120;
     text-align: center;
-    font-style:italic;
+    /* font-style:italic; */
+    font-weight: 800;
     background-color: rgb(255, 255, 246);
+    overflow-x: hidden;
    }
 
   p {
-    font-weight: 50;
+    font-weight: 600;
     }
 
   h1,h2,h3 {
     text-decoration: underline;
     color: rgb(0, 69, 42);
+    font-weight: 600;
     }
     
+  h4 {
+    font-weight: 600;
+    font-size: 2rem;
+  }
+
   h5 {
     text-align: left;
     color: brown;
-    font-weight:500;
-    font-size: xx-large;
+    font-weight: 800;
+    /* font-size: xx-large; */
   }
 
   #line1 {
@@ -168,3 +175,25 @@
 
   #bg-image { 
     background-image:url("dogebottom.jpeg")  }
+
+
+
+
+
+  #semi-circle {
+    background-color:#FFAC1D;
+    border-radius: 50%;
+    width: 120vw;
+    height: 500px;
+    top: -180px;
+    left: -10vw;
+    /* top: ; */
+    position: absolute;
+    z-index: -1;
+  }
+
+  #header-text {
+    color: #ffffff;
+    margin-top: 0.5em;
+    font-size: 6em;
+  }
