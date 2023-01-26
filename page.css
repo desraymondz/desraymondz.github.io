@@ -179,8 +179,17 @@
 
 
 
-
+  
+  #circle-container {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    overflow: hidden;
+    
+  }
+  
   #semi-circle {
+    position: relative;
     background-color:#FFAC1D;
     border-radius: 50%;
     width: 120vw;
@@ -188,7 +197,6 @@
     top: -180px;
     left: -10vw;
     /* top: ; */
-    position: absolute;
     z-index: -1;
   }
 
