@@ -1,297 +1,312 @@
-  body {
-    font-family: 'Montserrat', sans-serif;
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#index {
+  /* font-style:italic; */
+  text-align: center;
+  font-weight: 800;
+  overflow-x: hidden;
   }
 
-  #index {
-    /* font-style:italic; */
-    text-align: center;
-    font-weight: 800;
-    overflow-x: hidden;
-   }
-
-  p {
-    font-weight: 600;
-    }
-
-  h1,h2,h3 {
-    text-decoration: underline;
-    color: rgb(0, 69, 42);
-    font-weight: 600;
-    }
-    
-  h4 {
-    font-weight: 600;
-    font-size: 2rem;
+p {
+  font-weight: 600;
   }
 
-  h5 {
-    text-align: left;
-    color: brown;
-    font-weight: 800;
-    /* font-size: xx-large; */
-  }
-
-  #line1 {
-    width: 100%;
-    height: 10px;
-    background-color: chocolate;
-    border-color: rgb(0, 0, 0);
-    border-style: dashed;
-  }
-
-  #line2 {
-    width: 100%;
-    height: 15px;
-    background-color: darkorange;
-    border-color: bisque;
-    border-style: ridge;
-  }
-
-  hr {
-    opacity: 1;
-  }
-
-  #index img { 
-    width: 400px;
-    border-width: 5px;
-    border-style:solid;
-    border-color:pink;
-  }
-
-  .hlink {
-    border-width: 2px;
-    border-bottom-width: 3px;
-    border-style: solid;
-    padding: 5px;
-    margin: 10px;
-    border-radius: 8px;
-    font-size: 24px;
-    display: block;
+h1,h2,h3 {
+  text-decoration: underline;
+  color: rgb(0, 69, 42);
+  font-weight: 600;
   }
   
-  #dl-link {
-    border-color: coral;
+h4 {
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+h5 {
+  text-align: left;
+  color: brown;
+  font-weight: 800;
+  /* font-size: xx-large; */
+}
+
+#line1 {
+  width: 100%;
+  height: 10px;
+  background-color: chocolate;
+  border-color: rgb(0, 0, 0);
+  border-style: dashed;
+}
+
+#line2 {
+  width: 100%;
+  height: 15px;
+  background-color: darkorange;
+  border-color: bisque;
+  border-style: ridge;
+}
+
+hr {
+  opacity: 1;
+}
+
+#index img { 
+  width: 400px;
+  border-width: 5px;
+  border-style:solid;
+  border-color:pink;
+}
+
+.hlink {
+  border-width: 2px;
+  border-bottom-width: 3px;
+  border-style: solid;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 8px;
+  font-size: 24px;
+  display: block;
+}
+
+#dl-link {
+  border-color: coral;
+}
+
+#ppt-link {
+  border-color: rgb(5, 208, 254);
+}
+
+#books-link {
+  border-color: rgb(1, 67, 18);
+}
+
+#finance-link {
+  border-color: rgb(3, 126, 34);
+}
+
+#icbp-link {
+  border-color: rgb(251, 181, 5);
+}
+
+#spotify-link {
+  border-color: rgb(3, 205, 53);
+}
+
+#ielts-link {
+  border-color: rgb(0, 132, 255);
+}
+
+#rickroll-link {
+  border-color: rgb(251, 5, 79);
+  border-radius: 10px;
+  font-size: 34px;
+  background-color: rgb(255, 224, 224);
+}
+
+#kantinpu {
+  border-color: rgb(5, 148, 251);
+  border-radius: 10px;
+  font-size: 34px;
+  background-color: rgb(197, 255, 255);
+}
+
+#spotify-header {
+  margin-top: 50px;
+}
+
+#current-date {
+  color:crimson
+}
+
+#button-style {
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+#google-form {
+  width: 100%;
+  min-height: 1000px;
+}
+
+#kir {
+  width: 40%;
+  margin: auto;
+  margin-bottom: 70px;
+
+}
+
+#kir_title {
+  margin-top: 4%;
+}
+
+@media screen and (min-width: 836px) {
+  #doge1 {
+    float: left;
   }
 
-  #ppt-link {
-    border-color: rgb(5, 208, 254);
+  #doge2 {
+    float: right;
   }
 
-  #books-link {
-    border-color: rgb(1, 67, 18);
+  #meme1 {
+    float: left;
   }
+}
 
-  #finance-link {
-    border-color: rgb(3, 126, 34);
-  }
-
-  #icbp-link {
-    border-color: rgb(251, 181, 5);
-  }
-  
-  #spotify-link {
-    border-color: rgb(3, 205, 53);
-  }
-
-  #ielts-link {
-    border-color: rgb(0, 132, 255);
-  }
-
-  #rickroll-link {
-    border-color: rgb(251, 5, 79);
-    border-radius: 10px;
-    font-size: 34px;
-    background-color: rgb(255, 224, 224);
-  }
-
-  #kantinpu {
-    border-color: rgb(5, 148, 251);
-    border-radius: 10px;
-    font-size: 34px;
-    background-color: rgb(197, 255, 255);
-  }
-
-  #spotify-header {
-    margin-top: 50px;
-  }
-
-  #current-date {
-    color:crimson
-  }
-
-  #button-style {
-    font-weight: bold;
-    margin-bottom: 50px;
-  }
-
-  #google-form {
-    width: 100%;
-    min-height: 1000px;
-  }
-
-  #kir {
-    width: 40%;
+@media (max-width: 767px) {
+  #doge1 #doge2 img {
     margin: auto;
-    margin-bottom: 70px;
-
-  }
-
-  #kir_title {
-    margin-top: 4%;
   }
   
-  @media screen and (min-width: 836px) {
-    #doge1 {
-      float: left;
-    }
-  
-    #doge2 {
-      float: right;
-    }
-
-    #meme1 {
-      float: left;
-    }
+  img { 
+    width: 60%;
   }
 
-  @media (max-width: 767px) {
-    #doge1 #doge2 img {
-      margin: auto;
-    }
-    
-    img { 
-      width: 60%;
-    }
+}
+
+#super-gif {
+  display: none;
+}
+
+#time-table {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#bg-image { 
+  background-image:url("dogebottom.jpeg")  }
   
+  
+
+
+
+#circle-container {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  overflow: hidden;
+  z-index: -1;
+  /* background-color: rgb(255, 255, 246); */
+  background-color: rgb(255, 255, 0);
+}
+
+#semi-circle {
+  position: relative;
+  background-color:#FFAC1D;
+  border-radius: 50%;
+  width: 120vw;
+  height: 500px;
+  top: -180px;
+  left: -10vw;
+  /* top: ; */
+}
+
+#header-text {
+  color: #ffffff;
+  margin-top: 0.5em;
+  margin-bottom: 400px;
+  font-size: 7em;
+  text-align: center;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+#main-content {
+  background: #ffffff;
+  
+}
+
+#page-title h1 {
+  width: 500px;
+  text-decoration: none;
+  color: black;
+  margin-bottom: 1em;
+  margin-top: -2em;
+  margin-left: 1em;
+  text-shadow: 0px 0px 3px gray;
+}
+
+.navbar {
+  font-weight: bold;
+}
+
+#projects {
+  background: #ffffff;
+
+}
+
+.card-year {
+  background-color: #FFAC1D;
+  color: #ffffff;
+  padding: 1em;
+  text-align: left;
+  border-radius: 20px;
+  box-shadow: -22px -22px 0px rgb(187, 187, 187);
+}
+
+.card-year h2 {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.card-year p {
+  padding-left: 2em;
+  font-weight: normal;
+  font-size: 2em;
+}
+
+#projects .carousel {
+  float: right;
+  width: 400px;
+  border-radius: 20px;
+}
+
+#projects .carousel img {
+  border-radius: 20px;
+}
+
+
+
+/* game page */
+
+#quiz1 {
+  border-radius: 20px;
+  border-width: 6px;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+  width: 300px;
+}
+
+#questionText {
+
+}
+
+
+
+
+/* for projects page on mobile  */
+@media (max-width: 767px) {
+  #page-title h1 {
+    margin-left: 0;
+    width: auto;
+  }
+  #header-text {
+    font-size: 3em;
+    margin-bottom: 225px;
   }
   
-  #super-gif {
-    display: none;
+  #semi-circle {
+    position: relative;
+    background-color:#FFAC1D;
+    border-radius: 50%;
+    width: 120vw;
+    height: 300px;
+    top: -100px;
+    left: -10vw;
+    /* top: ; */
   }
-  
-  #time-table {
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-  }
-  
-  #bg-image { 
-    background-image:url("dogebottom.jpeg")  }
-    
-    
-    
-    
-    
-    #circle-container {
-      position: absolute;
-      width: 100%;
-      top: 0;
-      overflow: hidden;
-      z-index: -1;
-      /* background-color: rgb(255, 255, 246); */
-      background-color: rgb(255, 255, 0);
-    }
-    
-    #semi-circle {
-      position: relative;
-      background-color:#FFAC1D;
-      border-radius: 50%;
-      width: 120vw;
-      height: 500px;
-      top: -180px;
-      left: -10vw;
-      /* top: ; */
-    }
-    
-    #header-text {
-      color: #ffffff;
-      margin-top: 0.5em;
-      margin-bottom: 400px;
-      font-size: 7em;
-      text-align: center;
-      font-weight: 800;
-      letter-spacing: 2px;
-    }
-    
-    #main-content {
-      background: #ffffff;
-      
-    }
-    
-    #page-title h1 {
-      width: 500px;
-      text-decoration: none;
-      color: black;
-      margin-bottom: 1em;
-      margin-top: -2em;
-      margin-left: 1em;
-      text-shadow: 0px 0px 3px gray;
-    }
-    
-    .navbar {
-      font-weight: bold;
-    }
+}
 
-    #projects {
-      background: #ffffff;
-
-    }
-    
-    .card-year {
-      background-color: #FFAC1D;
-      color: #ffffff;
-      padding: 1em;
-      text-align: left;
-      border-radius: 20px;
-      box-shadow: -22px -22px 0px rgb(187, 187, 187);
-    }
-    
-    .card-year h2 {
-      text-decoration: none;
-      color: #ffffff;
-    }
-    
-    .card-year p {
-      padding-left: 2em;
-      font-weight: normal;
-      font-size: 2em;
-    }
-    
-    #projects .carousel {
-      float: right;
-      width: 400px;
-      border-radius: 20px;
-    }
-    
-    #projects .carousel img {
-      border-radius: 20px;
-    }
-      
-      
-
-
-
-
-    /* for projects page on mobile  */
-    @media (max-width: 767px) {
-      #page-title h1 {
-        margin-left: 0;
-        width: auto;
-      }
-      #header-text {
-        font-size: 3em;
-        margin-bottom: 225px;
-      }
-      
-      #semi-circle {
-        position: relative;
-        background-color:#FFAC1D;
-        border-radius: 50%;
-        width: 120vw;
-        height: 300px;
-        top: -100px;
-        left: -10vw;
-        /* top: ; */
-      }
-    }
 

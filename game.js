@@ -57,6 +57,7 @@ operatorButtons.forEach(function(el){
         
         if (el.dataset.operator == correctOperator) {
             document.querySelector('#questionText').style.backgroundColor= '#3f3'
+            // + make it unable to click the incorrect answers
         } else {
             document.querySelector('#questionText').style.backgroundColor= '#f33'
             
