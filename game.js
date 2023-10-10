@@ -26,6 +26,21 @@ function questionsGenerator () {
 
 }
 
+// potential error
+// 8/1 = 8
+// 8*1 = 8
+// 1*8 = 8
+// 8/0 = Error?
+
+// 8-0 = 8
+// 8+0 = 8
+// 0+8 = 8
+
+// i want to make these questions to have 2 correct answers
+
+// todolist = fix bug, keyboard shortcut, add score, add timer, add sound
+
+
 function randomNumber (min,max) {
     let randomNumber = Math.random()
     randomNumber = randomNumber * (max - min + 1) + min
